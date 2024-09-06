@@ -19,5 +19,27 @@ namespace concecionaria
             Modelo = modelo;
             ValorFrabricacion = valorFabricacion;
         }
+
+        public double CalcularDepreciacionLineal(int anioCalcular, int vidaUtil)
+        {
+            int anUso = (anioCalcular - Modelo);
+            double valorActualizado = ValorFrabricacion - (ValorFrabricacion * ( anUso / vidaUtil));
+
+            return valorActualizado;
+        }
+
+        public double CalcularDepreciacionAnual(int anioACalcular, double tasaDepreciacion) {
+            int anUso = (anioACalcular - Modelo);
+            double valorActualizado = ValorFrabricacion * (Math.Pow((1 - tasaDepreciacion),(anUso)));
+            return valorActualizado; 
+        }
+
+        public string VerDescricion() {
+            
+            string msj = $"Marca: {Marca}, Modelo: {Modelo}, Valor Fabricacion: ${ValorFrabricacion}"; 
+            return msj; 
+        }
+
+
     }
 }
