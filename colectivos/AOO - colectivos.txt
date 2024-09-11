@@ -1,0 +1,18 @@
+AOO - Guia 1 colectivos
+
+QUe debe hacer? -> controlar recorridos
+De que? --> de Unidades(Colectivo)
+Como estan compuestas las Unidades
+	--> Pasajeros, Asientos, Recorrido, Paradas, 
+
+Recorrido se inciia con -> la Hora de salida (HH:MM) y cantidad de asientos de la Unidad
+Recorrido -> Tiene: - HoraSalida, HoraLlegada, cantAsientos.
+
+Paradas --> cant pasajeros que asciende, cant pasajeros descienden, Tiempo Demora
+
+Al finalizar Recorrido --> Informar:
+	Cantidad pasajeros transportados
+	Tiempo Total Recorrido
+	Cantidad de paradas
+	Tiempo total de demoras en las paradas.
+
