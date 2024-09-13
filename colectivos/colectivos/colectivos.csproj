@@ -4,7 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{19AC9832-D27C-4030-8D66-B194E4EDB429}</ProjectGuid>
+=======
+    <ProjectGuid>{8FF22048-9E20-48C2-BE18-811E7C82EAF6}</ProjectGuid>
+>>>>>>> c26ba21b00ed3b085f81ece1ee058cccee6a0d8c
     <OutputType>WinExe</OutputType>
     <RootNamespace>colectivos</RootNamespace>
     <AssemblyName>colectivos</AssemblyName>
@@ -54,10 +58,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Viaje.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> c26ba21b00ed3b085f81ece1ee058cccee6a0d8c
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

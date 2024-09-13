@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
+<<<<<<< HEAD
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "colectivos", "colectivos\colectivos.csproj", "{19AC9832-D27C-4030-8D66-B194E4EDB429}"
+=======
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "colectivos", "colectivos\colectivos.csproj", "{8FF22048-9E20-48C2-BE18-811E7C82EAF6}"
+>>>>>>> c26ba21b00ed3b085f81ece1ee058cccee6a0d8c
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +17,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{19AC9832-D27C-4030-8D66-B194E4EDB429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19AC9832-D27C-4030-8D66-B194E4EDB429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19AC9832-D27C-4030-8D66-B194E4EDB429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19AC9832-D27C-4030-8D66-B194E4EDB429}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{8FF22048-9E20-48C2-BE18-811E7C82EAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF22048-9E20-48C2-BE18-811E7C82EAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF22048-9E20-48C2-BE18-811E7C82EAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF22048-9E20-48C2-BE18-811E7C82EAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> c26ba21b00ed3b085f81ece1ee058cccee6a0d8c
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {99CC0900-324F-4CE8-9AB9-3119BF72866F}
+=======
+		SolutionGuid = {16097636-A7A3-41F4-B842-F89876682777}
+>>>>>>> c26ba21b00ed3b085f81ece1ee058cccee6a0d8c
 	EndGlobalSection
 EndGlobal
